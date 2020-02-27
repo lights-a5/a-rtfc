@@ -1,12 +1,8 @@
 set -e
 
-./cards.py
-./setup-build.py
-
 rm -rf dist
 mkdir dist
 mkdir dist/twitch
-
 
 ( cd config && yarn install --pure-lockfile && yarn build )
 ( cd overlay && yarn install --pure-lockfile && yarn build )
