@@ -1,3 +1,6 @@
+# A-RTFC
+A-RTFC is a fork of Deckmaster by Fugiman. Fugiman had a lot of things inside the code that made it difficult to develop for and/or deploy your own version. This cleaned up a significant amount and includes some scripts to make it easy to deploy your own version.
+
 # Instructions
 
 There are 3 parts to this: the server, the client, and the actual extension code we upload to twitch.
